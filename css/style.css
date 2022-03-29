@@ -1,9 +1,73 @@
 *{
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
 .navbar{
     width: 100%;
 }
 .top i{
     color: #4D9CAF;
+}
+#drive{
+    background-image: url(../photos/drive.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#drive p{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+#drive h1{
+    font-size: 5rem;
+    font-weight: 700;
+}
+#drive .text{
+    width: 70%;
+}
+#drive .second{
+    width: 50%;
+    font-size: 15px !important;
+}
+#luxury{
+    width: 100%;
+    padding: 0 6rem;
+}
+
+#luxury .right{
+    background: url(../photos/luxury-bg.jpg);
+    width: 100%;
+    position: relative;
+}
+.top-h{
+    padding-left: 2rem;
+}
+#luxury img{
+    position: absolute;
+    width: 100%;
+}
+#luxury .top span{
+    padding-bottom: 20px;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+#luxury .bring{
+    color: #4D9ED0;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+#luxury .let{
+    font-size: 18px;
+    line-height: 1.7em;
+    color: #898989;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#car a{
+    color: #171717;
+}
+#fleet span{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 400;
 }
