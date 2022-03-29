@@ -1,0 +1,9 @@
+*{
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+}
+.top i{
+    color: #4D9CAF;
+}
